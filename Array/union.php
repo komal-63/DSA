@@ -18,7 +18,7 @@ while($i<count($array1) && $j<count($array2)){
     }
     else{
         $array3[]=$array2[$j];
-        $i++;
+        $j++;
     }
 }
 
